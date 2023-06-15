@@ -1,0 +1,161 @@
+/* 
+    CSS Guide 
+
+    1.  General Styles (Normalize)
+
+ */
+
+
+ /* 1. ---General Styles--- */
+
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    img, embed, object, video, picture {
+        max-width: 100%;
+    }
+
+    h1, h2, h3, h4, h5 {
+        margin: 0px;
+        padding: 0px;
+        font-size: 50px;
+        text-align: center;
+        margin: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h2 {
+        margin: 0px;
+        padding: 0px;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    h3 {
+        margin: 0px;
+        padding: 0px;
+        font-size: 40px;
+        color: #FDC05F;
+        text-align: center;
+        margin: 10px;
+    }
+
+    h4 {
+        margin: 0px;
+        padding: 0px;
+        font-size: 30px;
+        color: #FDC05F;
+        text-align: center;
+        margin: 10px;
+    }
+
+    h5 {
+        margin: 0px;
+        padding: 0px;
+        font-size: 20px;
+        text-align: center;
+        margin: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    p {
+        margin: 0px;
+        padding: 5px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin: 5px;
+    }
+
+
+    a {
+        text-decoration: none;
+        transition: all .5s ease-in-out;
+    }
+
+    input, textarea {
+        display: block;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    section h2, section h3, section p {
+        padding-left: 15px;
+    }
+
+    .spacer {
+        margin-top: 60px;
+    }
+
+    .txt-spacer {
+        margin-top: 30px;
+    }
+
+
+    .l-col-span-1 {
+        width: 100px;
+        height: auto;
+        margin-left: 100px;
+        margin-bottom: 20px;
+    }
+    /* ---End of General Styles--- */
+
+    /* --- Nav --- */
+
+     .box {
+        background-color: #f2f2f2;
+        padding: 0px;
+    }
+
+    .nav-link {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: #333;
+        margin-left: 100px;
+        padding: 20px;
+        display:inline-block;
+    }
+
+
+    .nav-link:hover {
+        color:#FDC05F;
+        cursor: pointer;
+    }
+
+    .l-col-span-4 {
+        margin-bottom: 50px;
+    }
+
+    .l-col-span-6 {
+        padding: 0px;
+        margin: 0;
+    }
+
+    .l-col-span-11 {
+        /* Add your desired styling for the container */
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        display: inline-block;
+        display: flex;
+        list-style: none;
+        padding:25px;
+    }
+
+    .l-col-span-12 {
+        padding: 0;
+        margin-bottom: 50px;
+    }
+
+    .grid-con-footer {
+        padding: 20;
+        margin: 20px;
+    }
+ 
+    #icon {
+        width: 100px;
+        height: 100px;
+    }
