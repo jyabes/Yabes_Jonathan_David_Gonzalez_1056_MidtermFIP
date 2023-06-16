@@ -78,6 +78,7 @@ html {
   margin: 0px auto;
   padding-left: 15px;
   padding-right: 15px;
+
   /*padding: 0px 15px 0px 15px;*/
 }
 
@@ -599,7 +600,7 @@ html {
     .grid-con {
       display: grid;
       grid-template-columns: repeat(12, minmax(0, 1fr));
-      grid-column-gap: 34px;
+      grid-column-gap: 0px;
       max-width: none;
       margin: 0px auto;
       padding-left: 0px;
