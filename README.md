@@ -1,4 +1,4 @@
-# yabes_jonathan_MidtermFIP
+# Yabes_Jonathan_David_Gonzalez_1056_MidtermFIP
  Midterm FIP - create 2 fully responsive pages
 
 Midterm FIP
