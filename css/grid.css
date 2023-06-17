@@ -415,7 +415,6 @@ html {
   
     .l-col-span-5 {
       grid-column: span 5 / span 5;
-      flex-wrap: inherit;
     }
   
     .l-col-span-6 {
