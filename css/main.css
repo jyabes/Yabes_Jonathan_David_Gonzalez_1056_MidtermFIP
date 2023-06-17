@@ -75,6 +75,9 @@
         line-height: 30px;
     }
 
+    .custom-hr {
+        width: 30%;
+      }
 
     a {
         text-decoration: none;
@@ -122,6 +125,20 @@
      .box {
         background-color: #f2f2f2;
         padding: 0px;
+    }
+
+    header {
+        height: 10rem;
+        padding: 0 15px;
+        position: fixed;
+        justify-content: space-between;
+        align-items: center;
+        background-color: gray;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        top: 0;
+        width: 100%
     }
 
     .nav-link {
