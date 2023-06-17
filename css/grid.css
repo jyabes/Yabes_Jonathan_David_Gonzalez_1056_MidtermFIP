@@ -185,12 +185,12 @@ html {
   .grid-con {
     display: grid;
     grid-template-columns: repeat(12, minmax(0, 1fr));
-    grid-column-gap: 30px;
+    grid-column-gap: 0px;
     max-width: 1199px;
     /*--remove below when you fully understand the passing of rules and values(this rule only)--*/
     margin: 0px auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .m-col-span-1 {
