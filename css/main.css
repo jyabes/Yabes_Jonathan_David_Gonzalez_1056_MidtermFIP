@@ -296,41 +296,53 @@ keep the "col" classes as clean as possible to mitigate this problem from happen
 /*DAVID EDIT: CONTACT PAGE CSS*/
 #contact 
 {
-    background:#F9F9F9;
+    background:#256A3F;
     padding:25px;
     margin:50px 0;
+    border-radius: 5%;
 }
     
 #contact h3 
 {
-    color: #F96;
+    color: rgb(255, 255, 255);
     display: block;
-    font-size: 30px;
-    font-weight: 400;
+    font-size: 35px;
+    font-weight: 420;
 }
     
 #contact h4 
 {
     margin:5px 0 15px;
     display:block;
-    font-size:13px;
+    font-size:14px;
 }
-    
     
 #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea 
 {
     width:100%;
-    border:1px solid #CCC;
-    background:#FFF;
-    margin:0 0 5px;
-    padding:10px;
+    padding:12px;
 }
     
 #contact textarea 
 {
-    height:100px;
+    height:200px;
     max-width:100%;
     resize:none;
+}
+
+fieldset {
+    border: none;
+}
+
+#submit {
+    height: 50px;
+    width: 100px;
+}
+button[type="submit"]:hover 
+{
+    background-color: #256A3F;
+    border: none;
+    color: #ffffff;
 }
 
 /*DAVID EDIT: added media for screen above 1200px for the ingredient images because it was making me mad seeing them so small in the desktop.*/
