@@ -103,7 +103,8 @@
         margin-top: 0px;
     }
 
-    #para-beer {
+    /*EDIT: changed para-beer from id to class, so you can use duplicates without validator throwing errors. was previous #para-beer*/
+    .para-beer {
         margin-left: 40px;
         margin-right: 40px;
 
@@ -112,7 +113,8 @@
   
     }
 
-    #name-testimonial {
+    /*EDIT: changed para-beer from id to class, so you can use duplicates without validator throwing errors. was previous #name-testimonials*/
+    .name-testimonial {
         font-size: 20px;
         padding-left: 50px;
         color: #f2f2f2;
@@ -164,7 +166,8 @@
     }
 
 
-    .nav-link: hover {
+    .nav-link:hover 
+    {
         color:#FDC05F;
         cursor: pointer;
         text-decoration: none;
@@ -213,20 +216,22 @@
         margin-right: 10px;  
     } 
  
-    #hops {
+    /*EDIT: changed hops wheats barley from id to class, so you can use duplicates without validator throwing errors.*/
+    .hops {
         width: 100px;
         height: 100px;
     }
 
-    #wheats {
+    .wheats {
         width: 100px;
         height: 100px;
     }
 
-    #barley {
+    .barley {
         width: 100px;
         height: 100px;
     }
+    /*EDIT: end of edit for hops wheats barley*/
 
     #footer {
         text-align: left;
@@ -234,21 +239,22 @@
         margin-bottom: 10px;
         display: flex;
     }
-
-    #footer-heading {
+    /*EDIT: changed everything underneath from id to class, so you can use duplicates without validator throwing errors.*/
+    .footer-heading {
         text-align: left;
         margin-left: 0px;
         margin-bottom: 0px;
         display: flex;
     }
 
-    #footer-description {
+    .footer-description {
         text-align: left;
         margin-left: 0px;
         margin-bottom: 0px;
     }
 
-    #newsletter input {
+    .newsletter input 
+    {
         padding: 10px;
         width: 300px;
         margin-bottom: 20px;
@@ -257,9 +263,10 @@
         color: #a29e9e;
         font-size: 10px;
         display: flex;
-      }
-
-      #newsletter button {
+    }
+      
+    .newsletter button 
+    {
         padding: 7px 12px;
         margin-left: 4px;
         color: #ffffff;
@@ -269,6 +276,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-      }
+    }
 
       
