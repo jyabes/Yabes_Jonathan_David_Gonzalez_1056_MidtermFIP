@@ -221,7 +221,11 @@ keep the "col" classes as clean as possible to mitigate this problem from happen
     padding:0;
     margin-right: 10px;  
 } */
- 
+
+.ingredients{
+    justify-content: center;
+}
+
 /*DAVID EDIT: changed hops wheats barley from id to class, so you can use duplicates without validator throwing errors. temporary change until index is compressed.*/
 
 .hops 
