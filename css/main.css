@@ -222,10 +222,6 @@ keep the "col" classes as clean as possible to mitigate this problem from happen
     margin-right: 10px;  
 } */
 
-.ingredients{
-    justify-content: center;
-}
-
 /*DAVID EDIT: changed hops wheats barley from id to class, so you can use duplicates without validator throwing errors. temporary change until index is compressed.*/
 
 .hops 
@@ -336,4 +332,26 @@ keep the "col" classes as clean as possible to mitigate this problem from happen
     max-width:100%;
     resize:none;
 }
+
+@media screen and (min-width: 1200px)
+{
+    .hops 
+    {
+        width: 200px;
+        height: 200px;
+    }
+
+    .wheats 
+    {
+        width: 200px;
+        height: 200px;
+    }
+
+    .barley 
+    {
+        width: 200px;
+        height: 200px;
+    }
     
+}
+
