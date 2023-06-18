@@ -1,21 +1,31 @@
-# Yabes_Jonathan_David_Gonzalez_1056_MidtermFIP
- Midterm FIP - create 2 fully responsive pages
+# Midterm FIP for MMED 1056 Web Development
+## By Jonathan Yabes and David Gonzales
 
-Midterm FIP
+This is a repo containing the Midterm FIP for Jonathan Yabes and David Gonzales' "Billy Beer" website. 
 
-TODO: Midterm FIP - create 2 fully responsive pages
+## TABLE OF CONTENTS
+### Main Folder
+index.html <br>
+contact.html<br><br>
 
-Each team or individual is responsible for designing, coding, and seman:cally tagging responsive HTML5 website (using the CSS Grid). CSS3 must also be adequately u:lized throughout the site. 2 fully responsive pages must be completed. A contact form/page must be present. No splash pages or single-page scroll sites.
-Students are strongly encouraged to submit a fully completed design for their website. However, placeholder content such as stock photos and roughed-out design files are permiZed.
-The 4-page website is based on the student's original layout (Not the templates provided last semester). Students are required to create the proper markup for the site and must make use of seman:c tags.
+### assets
+Jonathans design files + document outline <br>
+Homepages of other websites that draw inspiration<br><br>
 
+### css
+grid.css <br>
+main.css <br><br>
 
-History
+### images
+18 images in total, containing placeholder content and content created from other classes. <br><br>
 
-TODO: Write history
-Credits
+### js
+main.js
 
-TODO: Write credits
-License
-
-TODO: Write license
+# GRADING RUBRIC /100
+Folder Setup & Naming / 5
+Properly submitted via GitHub (used versioning) / 20
+Valid HTML and CSS / 25
+Doc Outline / 25
+Design / 15
+Use of CSS3 (transitions, animations, border radius, etc.) / 10
