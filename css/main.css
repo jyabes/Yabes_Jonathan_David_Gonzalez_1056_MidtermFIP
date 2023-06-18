@@ -333,6 +333,7 @@ keep the "col" classes as clean as possible to mitigate this problem from happen
     resize:none;
 }
 
+/*DAVID EDIT: added media for screen above 1200px for the ingredient images because it was making me mad seeing them so small in the desktop.*/
 @media screen and (min-width: 1200px)
 {
     .hops 
