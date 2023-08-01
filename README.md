@@ -1,4 +1,4 @@
-# Midterm FIP for MMED 1056 Web Development
+# Final Integrated Project
 ## By Jonathan Yabes and David Gonzales
 
 This is a repo containing the Midterm FIP for Jonathan Yabes and David Gonzales' "Billy Beer" website. 
