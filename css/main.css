@@ -268,13 +268,6 @@ header{
     right: 80px;
 }
 
-.video-container 
-{
-    width: 100%;
-    max-width: 1000px; 
-    margin: 0 auto; 
-}
-
 /*DAVID EDITED: deleted all the col-span styles added, because:
 A) they had no stylistic effect on the HTML and 
 B) it would eventually pose a problem later on down the line when trying to work with grid.css, and while applying other col-span when trying to build the other pages. 
