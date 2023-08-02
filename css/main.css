@@ -1,172 +1,272 @@
 /*DAVID EDITED: Deleted contact.css and added all css elements into the main css page*/
 
  @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+ @import url(https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap);
 
-    body {
-        margin: 0px;
-        padding: 0px;
-    }
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-    img, embed, object, video, picture {
-        max-width: 100%;
-    }
+img, embed, object, video, picture 
+{
+    max-width: 100%;
+}
 
-    h1, h2, h3, h4, h5 {
-        margin: 0px;
-        padding: 0px;
-        font-size: 50px;
-        text-align: center;
-        margin: 20px;
-        font-family: Arial, Helvetica, sans-serif;
-        color: #f2f2f2;
-    }
+h1, h2, h3, h4, h5 
+{
+    margin: 0px;
+    padding: 0px;
+    font-size: 50px;
+    text-align: center;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f2f2f2;
+}
 
-    h2 {
-        margin: 0px;
-        padding: 0px;
-        font-size: 25px;
-        text-align: center;
-        margin-top: 50px;
-        
-    }
+h2 
+{
+    margin: 0px;
+    padding: 0px;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 50px;
+}
 
-    h3 {
-        margin: 0px;
-        padding: 0px;
-        font-size: 40px;
-        color: #FDC05F;
-        text-align: center;
-        margin: 10px;
-    }
+h3 
+{
+    margin: 0px;
+    padding: 0px;
+    font-size: 40px;
+    color: #FDC05F;
+    text-align: center;
+    margin: 10px;
+}
 
-    h4 {
-        margin: 0px;
-        padding: 0px;
-        font-size: 25px;
-        color: #FDC05F;
-        text-align: center;
-        margin: 0px;
-    }
+h4 
+{
+    margin: 0px;
+    padding: 0px;
+    font-size: 25px;
+    color: #FDC05F;
+    text-align: center;
+    margin: 0px;
+}
 
-    h5 {
-        margin: 0px;
-        padding: 0px;
-        font-size: 20px;
-        text-align: center;
-        margin: 0px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
+h5 
+{
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-    p {
-        margin: 0px;
-        padding-right: 10px;
-        padding-left: 10px;
-        font-size: 18px;
-        font-family: Arial, Helvetica, sans-serif;
-        text-align: center;
-        margin: 0px;
-        color: #f2f2f2;
-        line-height: 30px;
-    }
+p 
+{
+    margin: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0px;
+    color: #f2f2f2;
+    line-height: 30px;
+}
 
-    .custom-hr {
-        width: 30%;
-      }
+.custom-hr 
+{
+    width: 30%;
+}
 
-    a {
-        text-decoration: none;
-        transition: all .5s ease-in-out;
-    }
+a 
+{
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
 
-    input, textarea {
-        display: block;
-        margin: 0px;
-        padding: 10px;
-        width: 100%;
-    }
+input, textarea 
+{
+    display: block;
+    margin: 0px;
+    padding: 10px;
+    width: 100%;
+}
 
-    section h2, section h3, section p {
-        padding-left: 0px;
-    }
 
-    .spacer {
-        margin-top: 0px;
-    }
 
-    .txt-spacer {
-        margin-top: 0px;
-    }
+/*DAVID EDITED: changed para-beer from id to class, so you can use duplicates without validator throwing errors. was previous #para-beer. temporary change until index is compressed.*/
+.para-beer 
+{
+    margin-left: 40px;
+    margin-right: 40px;
 
-    /*DAVID EDITED: changed para-beer from id to class, so you can use duplicates without validator throwing errors. was previous #para-beer. temporary change until index is compressed.*/
-    .para-beer {
-        margin-left: 40px;
-        margin-right: 40px;
-
-        text-align: left;
-        text-indent: 50px;
+    text-align: left;
+    text-indent: 50px;
   
-    }
+}
 
-    /*DAVID EDITED: changed para-beer from id to class, so you can use duplicates without validator throwing errors. was previous #name-testimonials. temporary change until index is compressed.*/
-    .name-testimonial {
-        font-size: 20px;
-        padding-left: 50px;
-        color: #f2f2f2;
-    }
-
-
-    /* ---End of General Styles--- */
-
-    /* --- Nav --- */
-
-    .box {
-        background-color: #f2f2f2;
-        padding: 0px;
-    }
+/*DAVID EDITED: changed para-beer from id to class, so you can use duplicates without validator throwing errors. was previous #name-testimonials. temporary change until index is compressed.*/
+.name-testimonial 
+{
+    font-size: 20px;
+    padding-left: 50px;
+    color: #f2f2f2;
+}
 
 
+/* ---End of General Styles--- */
+/* Header Elements */
+
+header{
+    background-color: #6e6e6e;
+}
+
+.mobile-menu 
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #6e6e6e;
+    border-radius: 10px;
+    display: none;
+}
 
 
+.logo {
+    max-width: 60px;
+    max-height: 60px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    margin-left: 10%;
+    background-color: #6e6e6e;
+}
 
-    nav ul {
-        list-style-type: none;
-        display: flex;
-        justify-content: flex-end;
-        padding: 0;
-      }
+
+.social-nav{
+    padding:10px;
+}
+
+.socials 
+{
+    height: 35px;
+    margin-right: 40px;
+}
+
+
+/* --- Nav --- */
+
+.mobile-nav {
+    background-color: #6e6e6e;
+}
+
+
+.mobile-nav ul 
+{
+    list-style: none;
+    padding: 0;
+}
       
-      nav ul li {
-        margin-right: 20px; /* Adjust the spacing between menu items */
-      }
-      
-      nav ul li:last-child {
-        margin-right: 0;
-      }
+.mobile-nav ul li
+{
+    margin-bottom: 50px;
+}
 
-    .nav-link {
-        text-decoration: none;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 20px;
-        color: #333;
-        margin-left: 30px;
-        padding: 10px;
-        display: flex;
-    }
-
-    .nav-link li {
-        text-decoration: none;
-        flex-grow: 1;
-        flex-shrink: 1;
-    }
+.nav-link 
+{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    margin-left: 30px;
+    font-weight: bold;
+}
 
 
-    .nav-link:hover 
-    {
-        color:#FDC05F;
-        cursor: pointer;
-        text-decoration: none;
+.nav-link:hover 
+{
+    color:#FDC05F;
+    cursor: pointer;
+    text-decoration: none;
+}
 
-    }
+.close-button, .open-button 
+{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.close-button:hover, .open-button:hover 
+{
+    color: #FDC05F;
+}
+
+/* DESKTOP MENU*/
+
+.desktop-menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+/* Add this to center desktop-nav-list horizontally */
+.desktop-nav {
+    display: flex;
+    align-items: center;
+}
+
+.desktop-menu ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.desktop-menu ul li {
+    margin-right: 20px;
+}
+
+.desktop-menu ul li:last-child {
+    margin-right: 0;
+}
+
+.desktop-logo {
+    width: 60px;
+    height: 60px;
+    margin-left: 80px;
+    background-color: #6e6e6e;
+}
+
+.desktop-nav-list {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.desktop-nav-link{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+
+}
+
+.desktop-nav-link li,
+.desktop-social-nav{
+    top: 0px;
+    right: 80px;
+}
 
 /*DAVID EDITED: deleted all the col-span styles added, because:
 A) they had no stylistic effect on the HTML and 
@@ -268,6 +368,15 @@ keep the "col" classes as clean as possible to mitigate this problem from happen
     margin-bottom: 0px;
 }
 
+.sub-input {
+    width: 200px; /* Set the width of the input field to 200 pixels */
+    height: 30px; /* Set the height of the input field to 30 pixels */
+    font-size: 16px; /* Set the font size of the input text */
+    padding: 5px; /* Add some padding around the input text */
+    border: 1px solid #ccc; /* Add a border around the input field */
+    border-radius: 5px; /* Add rounded corners to the input field */
+}
+
 .newsletter input 
 {
     padding: 10px;
@@ -330,19 +439,35 @@ keep the "col" classes as clean as possible to mitigate this problem from happen
     resize:none;
 }
 
-fieldset {
+fieldset 
+{
     border: none;
 }
 
-#submit {
+#submit 
+{
     height: 50px;
     width: 100px;
 }
+
 button[type="submit"]:hover 
 {
     background-color: #256A3F;
     border: none;
     color: #ffffff;
+}
+
+#letstalk1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 50px;
+    text-align: center;
+    color: #FDC05F;
+}
+
+#letstalk2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 /*DAVID EDIT: added media for screen above 1200px for the ingredient images because it was making me mad seeing them so small in the desktop.*/
@@ -368,3 +493,22 @@ button[type="submit"]:hover
     
 }
 
+@media screen and (max-width: 1100px)
+{
+    .desktop-menu
+    {
+        display:none !important;
+    }
+
+    
+}
+
+@media screen and (min-width: 1101px) 
+{
+    .mobile-menu,
+    .close-button,
+    .open-button 
+    {
+      display: none !important;
+    }
+}

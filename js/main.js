@@ -1,9 +1,11 @@
-(function(){
-	"use strict";	
-	console.log("fired");
-})();
+function hideHeader() {
+    const header = document.querySelector('.mobile-menu');
+    header.style.display = 'none';
+    document.querySelector('.open-button').style.display = 'block';
+}
 
-//Can also be written like this:
-//(() => {  })();   
-
-// Info about IIFE https://flaviocopes.com/javascript-iife/
+function showHeader() {
+    const header = document.querySelector('.mobile-menu');
+    header.style.display = 'block';
+    document.querySelector('.open-button').style.display = 'none';
+}
