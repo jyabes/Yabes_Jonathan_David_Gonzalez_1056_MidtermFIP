@@ -76,11 +76,177 @@
     </header>
 
     <section>
-        <button class="open-button" onclick="showHeader()">+</button>
+        <button class="open-button" onclick="showHeader()"><img src="images/hamburger-menu.jpg" alt="Navigation"></button>
     </section>
 
+
     <main>
-        <!--ABOUT ME CONTENT IN HERE-->
+
+        <div class="grid-con">
+            <div id="about-hero" class="col-span-4 m-col-span-12" style="background-color:#3b3b3b;">
+                <img src="images/about-hero.png" alt="About Page Hero Image">
+            </div>
+        </div>
+
+        <section id="founders" style="background-color:#3b3b3b;">
+            <div class="grid-con">
+                <div style="background-color:#3b3b3b;" class="col-span-4 m-col-span-12">
+                    <img src="images/about-man2.jpg" alt="Founder 2">
+                    <img src="images/about-man1.jpg" alt="Founder 1">
+                </div>
+                
+                <div class="col-span-4 m-col-span-12">
+
+                    <h3>Visionaries Behind Billy Beer</h3>
+                    <p class="text">
+                        John Smith and Steve Johnson, the dynamic duo and co-founders of Billy Beer, share an unwavering passion for crafting exceptional 
+                        brews that bring people together. <span class="moreText">
+                        John’s deep-rooted knowledge of brewing techniques, acquired through generations of family tradition, 
+                        combines seamlessly with Emily’s creative flair and business acumen. Together, they embarked on a journey to revive the spirit of camaraderie 
+                        and celebration through the art of brewing. Their commitment to quality, sustainability, and community partnerships has guided Billy Beer to become 
+                        a renowned brand that stands as a testament to their shared vision. With John’s dedication to craftsmanship and Emily’s innovative mindset, 
+                        they continue to shape the future of Billy Beer, leaving an indelible mark on the world of brewing.</span>
+                    </p>
+
+                    <button class="read-more-btn">Read More</button>
+                </div>
+
+            </div>
+            
+            <section id="gallery">
+                <div style="background-color:#3b3b3b;" class="col-span-4 m-col-span-12 l-col-start-4 l-col-end-10 mobile-gallery">
+                    <button id="switchButton"><img src="images/switch.png" id="switch" alt="Switch Image Button" draggable="false"></button>
+                        
+                    <!-- Container displaying the many iterations of backgrounds. "#" value because images are called in javascript.-->
+                    <section class="imageContainer">
+                        <h4 class="hidden"> Image Container</h4>
+                        <img id="displayedImage" src="#" alt="Image" draggable="false">
+                    </section>
+                </div>
+    
+                <div style="background-color:#3b3b3b;" class="col-span-4 m-col-span-12 l-col-start-4 l-col-end-10 desktop-gallery">
+                    <img src="images/about-img1.jpg" alt="Image of Row of Kegs">
+                    <img src="images/about-img2.jpg" alt="Image of Beer Master and Student">
+                </div>
+    
+                <div style="background-color:#3b3b3b;" class="col-span-4 m-col-span-12 l-col-start-4 l-col-end-10 desktop-gallery">
+                    
+                    <img src="images/about-img3.jpg" alt="Image of Folk drinking">
+                    <img src="images/about-img4.jpg" alt="Image of Distillery">
+                </div>
+            </section>
+
+
+                
+
+            <div id="traditional-techniques" style="background-color:#3b3b3b;" class="col-span-4 m-col-start-2 m-col-end-9">
+                <h3>Traditional Techniques</h3>
+                <p class="text">
+                    From selecting the finest, locally-sourced ingredients to meticulous brewing processes overseen by our master brewers, we leave no stone unturned in our 
+                    pursuit of perfection.Our state-of-the-art facilities and cutting-edge equipment allow us to uphold the time-honored methods while embracing modern advancements 
+                    to achieve consistent, exceptional quality. <br><br>The secret lies in the art of balancing flavors and aromas, crafting distinct brews that cater to a diverse audience of 
+                    beer enthusiasts. Our dedication to sustainability and eco-friendly practices further enhances the brewing process, ensuring that every Billy Beer is not only a 
+                    testament to our passion but also a celebration of nature’s bounties. At Billy Beer, our techniques are an ode to the craft, a tribute to the past, 
+                    and a promise to deliver unparalleled taste in every bottle.
+                </p>
+            </div>
+
+        </section>
+
+        <section id="client-exp">
+            <h3>Client's Experiences</h3>
+            <section class="grid-con">
+                <article class="col-span-4 m-col-span-4 l-col-span-4">
+                    <div>
+                        <p>
+                            A loyal customer for over a decade, serving Billy Beer’s diverse range of brews to delighted patrons.
+                        </p>
+                    </div>
+                    
+                    <div class="col-span-4 m-col-span-4 l-col-span-4">
+                        <img src="images/russell-lloyd.png" alt="Russell Lloyd">
+                    </div>
+        
+                    <div class="col-span-4 m-col-span-4 l-col-span-4">
+                        <h4>
+                            Russell Lloyd
+                        </h4>
+                        <p>
+                            Writer
+                        </p>
+                    </div>
+                </article>
+
+                <article class="col-span-4 m-col-span-4 l-col-span-4"">
+                    <div>
+                        <p>
+                            A dedicated fan since day one, Sarah loves Billy Beer’s locally-sourced, natural flavors and eagerly awaits their seasonal brews.
+                        </p>
+                    </div>
+                    
+                    <div>
+                        <img src="images/jessica-walker.png" alt="Jessica Walker">
+                    </div>
+        
+                    <div>
+                        <h4>
+                            Jessica Walker
+                        </h4>
+                        <p>
+                            Developer
+                        </p>
+                    </div>
+                </article>
+
+                <article class="col-span-4 m-col-span-4 l-col-span-4"">
+                    <div>
+                        <p>
+                            Partnering with Billy Beer for a refreshing and eco-friendly beer experience, adding to the festival’s celebration and camaraderie.
+                        </p>
+                    </div>
+                    
+                    <div>
+                        <img src="images/david-cameron.png" alt="David Cameron">
+                    </div>
+        
+                    <div>
+                        <h4>
+                            David Cameron
+                        </h4>
+                        <p>
+                            Artist
+                        </p>
+                    </div>
+                </article>
+            </section>
+            
+        </section>
+
+        <section id="team-list" style="background-color:#3b3b3b;">
+            
+            <h3>Our Team</h3>
+            <section class="grid-con">
+                <div id="team" class="col-span-4 m-col-span-12 l-col-span-12">
+                    <div>
+                        <img src="images/allen.jpg" alt="Allan">
+                        <p>Allan</p>
+                    </div>
+                    <div>
+                        <img src="images/roma.jpg" alt="Roma">
+                        <p>Roma</p>
+                    </div>
+                    <div>
+                        <img src="images/drew.jpg" alt="Drew">
+                        <p>Drew</p>
+                    </div>
+                    <div>
+                        <img src="images/peter.jpg" alt="Peter">
+                        <p>Peter</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+
     </main>
 
     <footer>

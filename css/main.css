@@ -7,6 +7,13 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color:#3b3b3b;
+}
+
+section {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 img, embed, object, video, picture 
@@ -14,9 +21,12 @@ img, embed, object, video, picture
     max-width: 100%;
 }
 
+
+
 h1, h2, h3, h4, h5 
 {
-    margin: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     padding: 0px;
     font-size: 50px;
     text-align: center;
@@ -122,7 +132,7 @@ input, textarea
 /* Header Elements */
 
 header{
-    background-color: #6e6e6e;
+    background-color: #3b3b3b;
 }
 
 .mobile-menu 
@@ -168,6 +178,7 @@ header{
 {
     list-style: none;
     padding: 0;
+    margin-right: 3;
 }
       
 .mobile-nav ul li
@@ -195,10 +206,12 @@ header{
 
 .close-button, .open-button 
 {
-    position: absolute;
-    top: 10px;
-    right: 10px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
     font-size: 20px;
+    width: 80px;
+    height: 80px;
     color: rgb(0, 0, 0);
     background-color: transparent;
     border: none;
@@ -221,7 +234,6 @@ header{
     padding-bottom: 30px;
 }
 
-/* Add this to center desktop-nav-list horizontally */
 .desktop-nav {
     display: flex;
     align-items: center;
@@ -244,13 +256,13 @@ header{
     width: 60px;
     height: 60px;
     margin-left: 80px;
-    background-color: #6e6e6e;
+    background-color: #3b3b3b;
 }
 
 .desktop-nav-list {
     position: absolute;
     top: 5%;
-    left: 50%;
+    left: 47%;
     transform: translate(-50%, -50%);
 }
 
@@ -369,12 +381,12 @@ keep the "col" classes as clean as possible to mitigate this problem from happen
 }
 
 .sub-input {
-    width: 200px; /* Set the width of the input field to 200 pixels */
-    height: 30px; /* Set the height of the input field to 30 pixels */
-    font-size: 16px; /* Set the font size of the input text */
-    padding: 5px; /* Add some padding around the input text */
-    border: 1px solid #ccc; /* Add a border around the input field */
-    border-radius: 5px; /* Add rounded corners to the input field */
+    width: 200px; 
+    height: 30px; 
+    font-size: 16px; 
+    padding: 5px; 
+    border: 1px solid #ccc;
+    border-radius: 5px; 
 }
 
 .newsletter input 
@@ -470,6 +482,69 @@ button[type="submit"]:hover
 
 }
 
+.founders-section{
+    text-align: center;
+    
+}
+
+.imageContainer 
+{
+	margin-top: .5rem;
+	margin-bottom: .5rem;
+	border-radius: 50px;
+	overflow: hidden;
+}
+
+button#switchButton{
+	background: linear-gradient(to right, rgb(94, 94, 94), rgb(255, 255, 255));
+	border-radius: 50px;
+	width: 80px;
+	height: 80px;
+}
+
+.read-more-btn{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border:none;
+    outline:none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.read-more-btn:hover 
+{
+    color:#FDC05F;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.moreText{
+    display:none;
+}
+
+.text.show-more .moreText{
+    display:inline;
+}
+
+#team {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px; 
+    justify-items: center; 
+}
+
+#client-exp{
+padding-top: 50px;
+padding-bottom: 50px;
+background-color: rgb(39, 39, 39);
+}
+
+#traditional-techniques, #team, #client-exp
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 /*DAVID EDIT: added media for screen above 1200px for the ingredient images because it was making me mad seeing them so small in the desktop.*/
 @media screen and (min-width: 1200px)
 {
@@ -495,7 +570,8 @@ button[type="submit"]:hover
 
 @media screen and (max-width: 1100px)
 {
-    .desktop-menu
+    .desktop-menu,
+    .desktop-gallery
     {
         display:none !important;
     }
@@ -507,8 +583,10 @@ button[type="submit"]:hover
 {
     .mobile-menu,
     .close-button,
-    .open-button 
+    .open-button, 
+    .mobile-gallery
     {
       display: none !important;
     }
 }
+
